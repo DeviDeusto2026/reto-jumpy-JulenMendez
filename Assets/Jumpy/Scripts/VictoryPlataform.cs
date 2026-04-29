@@ -6,6 +6,9 @@ public class VictoryPlataform : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        SceneManager.LoadScene("Victory");
+        if (collision.gameObject.transform.position.y > this.gameObject.transform.position.y)
+        {
+            SceneManager.LoadScene("Victory");
+        }
     }
 }
