@@ -7,7 +7,7 @@ public class PlataformSpawner : MonoBehaviour
 
     public int numberOfPlataforms;
 
-    public float altura;
+    public float height;
     public float xRange;
 
     public GameObject fox;
@@ -33,6 +33,6 @@ public class PlataformSpawner : MonoBehaviour
     {
         float randomX = Random.Range(-xRange, xRange);
 
-        return new Vector3(randomX, nPlataform * altura, 0);
+        return new Vector3(randomX, nPlataform * height, 0);
     }
 }
