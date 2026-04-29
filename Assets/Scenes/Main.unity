@@ -752,6 +752,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlatformBehaivor
   fox: {fileID: 1971008218}
+--- !u!114 &664517490
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 664517484}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc0452e1635d3ca4b9f7be2f2589d44b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::WinPlataform
 --- !u!108 &705507994 stripped
 Light:
   m_CorrespondingSourceObject: {fileID: 7283634239009913977, guid: 13aca049c67820644ba390980277e1e1, type: 3}
@@ -1222,7 +1234,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Movement
   velocity: 10
   jump: 500
-  can_jump: 1
+  can_jump: 0
 --- !u!1001 &3503230331243135894
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1846,6 +1858,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 3503230331010298774, guid: 13aca049c67820644ba390980277e1e1, type: 3}
       insertIndex: -1
       addedObject: {fileID: 664517489}
+    - targetCorrespondingSourceObject: {fileID: 3503230331010298774, guid: 13aca049c67820644ba390980277e1e1, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 664517490}
   m_SourcePrefab: {fileID: 100100000, guid: 13aca049c67820644ba390980277e1e1, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
