@@ -4,6 +4,7 @@ public class PlatformBehaivor : MonoBehaviour
 {
     public GameObject fox;
     private Collider platformCollider;
+    private Rigidbody foxRb;
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -11,13 +12,12 @@ public class PlatformBehaivor : MonoBehaviour
     {
         platformCollider = this.gameObject.GetComponent<Collider>();
         platformCollider.isTrigger = true;
+        foxRb = fox.GetComponent<Rigidbody>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        float foxSpeed = fox.GetComponent<Rigidbody>().linearVelocity.y;
-        
-        platformCollider.isTrigger = foxSpeed > 0;
+        platformCollider.isTrigger = foxRb.linearVelocity.y > 0;
     }
 }

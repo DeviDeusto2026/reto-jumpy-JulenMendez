@@ -28,14 +28,6 @@ public class Movement : MonoBehaviour
         }
     }
 
-    void FixedUpdate()
-    {
-        //if (can_jump && Input.GetKeyDown(KeyCode.Space))
-        //{
-        //    this.GetComponent<Rigidbody>().AddForce(transform.up * jump);
-        //}
-    }
-
 
     private void OnCollisionEnter(Collision collision)
     {
