@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 5200176812559206284}
   - component: {fileID: 5200176812558216964}
   - component: {fileID: 2576844700474786237}
+  - component: {fileID: 2824044184068897292}
   m_Layer: 6
   m_Name: Platform 1
   m_TagString: Untagged
@@ -112,3 +113,16 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 2.5313249, y: 2.5313249, z: 0.275723}
   m_Center: {x: -0.000000059604645, y: 0, z: 0.13731049}
+--- !u!114 &2824044184068897292
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5200176812560451266}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1bab2d0187bef4c48ad1392458e46c3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlatformBehaivor
+  fox: {fileID: 0}
